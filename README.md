@@ -1,6 +1,6 @@
 # AP CSP Period 5: Team Fire Eradicators🧯
 
-## [Vocabulary] 👩‍💻
+## Vocabulary 👩‍💻
 [Allison & Anika Vocab](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/wiki/Allison-and-Anika's-vocab-plan)
 [Christina, Gigi & Neha Vocab](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/wiki/Christina,-Gigi,-Neha-Vocab)
 
