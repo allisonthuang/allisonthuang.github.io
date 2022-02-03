@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 # AP CSP Period 5: Team Fire Eradicators🧯
 
 ## Vocabulary 👩‍💻
