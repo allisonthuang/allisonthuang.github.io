@@ -14,42 +14,41 @@
 <table>
 <tr>
 <th>Name</th>
-<th>Github ID and Profile</th>
+<th>Pages</th>
 <th>Tasks</th>
 <th>Commits</th>
 </tr>
 <tr>
 <td>Christina Lee</td>
-<td>
-@christinlee367
-</td>
+<td><a href="https://allisonthuang.github.io/christina">Christina</a></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/issues/assigned/christinlee367">Tickets</a><br></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/commits?author=christinlee367">Code</a></td>
 
 </tr>
 <tr>
 <td>Gigi Guan</td>
-<td>
-@gigiguan
-</td>
+<td><a href="https://allisonthuang.github.io/gigi">Gigi</a></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/issues/assigned/gigiguan">Tickets</a><br></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/commits?author=gigiguan">Code</a></td>
   
 </tr>
 <tr>
 <td>Allison Huang</td>
-<td>
-@allisonthuang
-</td>
+<td><a href="https://allisonthuang.github.io/allison">Allison</a></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/issues/assigned/allisonthuang">Tickets</a><br></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/commits?author=allisonthuang">Code</a></td>
   
 </tr>
 <tr>
 <td>Anika Sharma</td>
-<td>
-@anika1sharma1
-</td>
+<td><a href="https://allisonthuang.github.io/anika">Anika</a></td>
+<td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/issues/assigned/anika1sharma1">Tickets</a><br></td>
+<td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/commits?author=anika1sharma1">Code</a></td>
+  
+</tr>
+<tr>
+<td>Neha Valluri</td>
+<td><a href="https://allisonthuang.github.io/neha">Neha</a></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/issues/assigned/anika1sharma1">Tickets</a><br></td>
 <td><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel/commits?author=anika1sharma1">Code</a></td>
   
