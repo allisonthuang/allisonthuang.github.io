@@ -1,15 +1,4 @@
-<!-- Extending the predefined project layout -->
-{% extends "layouts/about.html" %}
 
-{% block head%}
-
-{% endblock %}
-
-<!-- This variable sets name of browser tab  -->
-{% set project = "allison" %}
-
-<!-- This is a replacement block for Body in base.html -->
-{% block body %}
     <head>
         <style>
             table {
@@ -31,20 +20,9 @@
     </head>
     <h1 style="font-family: 'Agency FB', monospace; padding: 20px; color:black; font-size: 30px;">Allison Huang</h1>
     <body style="background-color:#FFC0CB;">
-    <img src="/static/assets/aboutImg/maskOn/mask_on_allison.JPG" id="maskOff" style="width: 200px">
+    <img src="https://github.com/christinlee367/n225_FireEradicatorsTheSequel/blob/main/static/assets/aboutImg/maskOn/mask_on_allison.JPG?raw=true" id="maskOff" style="width: 200px">
 
-    <p><button class="button" onclick="toggleImage()">Click Me</button></p>
-
-    <script>
-        function toggleImage() {
-            var img = document.getElementById("maskOff");
-            if (img.src.match("/static/assets/aboutImg/maskOn/mask_on_allison.JPG")){
-                img.src = "/static/assets/aboutimg/maskOff/mask_off_allison.jpg";
-            }else{
-                img.src = "/static/assets/aboutImg/maskOn/mask_on_allison.JPG"
-            }
-        }
-    </script>
+    
 
 
 
@@ -53,12 +31,4 @@
     <li><a href="https://github.com/anika1sharma1/n225_FireEradicatorsTheSequel">Link to Repo w/README timeboxes</a></li>
     <li><a href="https://docs.google.com/document/d/1K2nbEtweqG5_sxcvbFO6eGg_9f6ZynfHEdR8k2EA-WE/edit?usp=sharing">Link to create task plan</a></li>
 
-        <form action={{url_for('allison.allison')}}>
-            <button>Refresh</button>
-        </form>
-
-    <div>
-        <p>Words of wisdom: {{ Z.content }}</p>
-    </div>
-
-{% endblock %}
+        <
