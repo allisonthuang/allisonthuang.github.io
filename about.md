@@ -10,3 +10,8 @@ Describe ideas for visual here<br>
 TPT 0.1: Benefit of drones, photography and military use but you can provide surveillance to people. Downside would be an invasion of privacy.
 1. Come up with three of your own Beneficial and corresponding Harmful Effects of Computing: Beneficial things are greater accessibility, simulating unlikely situations, and uniting people from far distances. Harmful effects of computing are lost lives in more imoprtant technologies like transportation technologies, bad algorithms to solve important problems and bringing bias into important decisions
 2. Talk about dopamine issues above. Real? Parent conspiracy? Anything that is impacting your personal study and success in High School?: I thikn dopamine issues are definitely real. Technology provides too much access to easy highs of dopamine which reduces brain sensitivity to it. I see it impacting my high school career in work ethic and making it harder for me to get tasks done.
+
+TPT 0.2: Digital Empowerment
+1. How does someone empower themself in a digital world?
+2. How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.
+3. Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
