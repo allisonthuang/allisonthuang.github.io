@@ -8,7 +8,7 @@ Writing a function to print a menu
 def print_menu1():
     print('1 -- Stringy' )
     print('2 -- Numby' )
-    print('3 -- Listy' )
+    print('3 -- Matrix' )
     print('4 -- Swap' )
     print('5 -- Exit' )
     runOptions()
@@ -18,7 +18,7 @@ def print_menu1():
 menu_options = {
     1: 'Stringy',
     2: 'Numby',
-    3: 'Listy',
+    3: 'Matrix',
     4: 'Swap',
     5: 'Exit',
 }
@@ -38,9 +38,23 @@ def numby():
     print('You chose \' 2 - Numby\'')
 
 # menu option 3
-def listy():
-    print('You chose \'3 - Listy\'')
+def matrix():
+  matrixa = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+  matrixb = []
+  matrix1(matrixa, matrixb)
+  matrix2(matrixb)
+  
+def matrix1(matrixa, matrixb):
+  for i in range(len(matrixa)):
+      for j in range(len(matrixa[i])):
+          matrixb.append(matrixa[i][j])
+  return(matrixb)
 
+def matrix2(matrixa, matrixb):
+  print(matrixb[0], matrixb[1], matrixb[2])
+  print(matrixb[3], matrixb[4], matrixb[5])
+  print(matrixb[6], matrixb[7], matrixb[8])
+  
 # menu option 4
 def swap():
   c = int(input('Whats your first number?:'))
@@ -53,7 +67,7 @@ def swap1(a,b):
     b, a = a, b  # swap values
   else:
     a, b = a, b
-    return a, b  # return 2 values
+  return a, b  # return 2 values
 
 # call functions based on input choice
 def runOptions():
@@ -66,7 +80,7 @@ def runOptions():
             elif option == 2:
                 numby()
             elif option == 3:
-                listy()
+                matrix()
             elif option == 4:
                 swap()
             # Exit menu    
