@@ -9,5 +9,5 @@
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@allisonthuang/AllisonCSPTri3"> </iframe>
 
 <div class="row justify-content-center" style="margin: 2%;">
-    <iframe height="1000px" width="1000px" src="https://replit.com/@allisonthuang/AllisonCSPTri3-1?lite=true#tt0.py"></iframe>
+    <iframe height="1000px" width="500px" src="https://replit.com/@allisonthuang/AllisonCSPTri3-1?lite=true#tt0.py"></iframe>
 </div>
