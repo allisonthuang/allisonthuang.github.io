@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Create Task
 [Create task idea](https://github.com/allisonthuang/allisonthuang.github.io/wiki/Allison's-Create-Task-Plan)
 ### Plan
