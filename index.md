@@ -2,8 +2,9 @@
 
 # AP CSP Period 3: Allison's Python Work 🐍
 
-## Replit 👩‍💻
-[Allison's Replit Link](https://replit.com/@allisonthuang/AllisonCSPTri3?v=1)
+## Repo Links 👩‍💻
+[Individual Repo](https://github.com/allisonthuang/allisonthuang.github.io
+[Team Repo](https://github.com/christinlee367/n225_FireEradicatorsTheSequel)
 
-## Review Tickets😍
+## Review Tickets 😍
 [Ticket Week 0](https://github.com/christinlee367/womenInSTEMandDavid/issues/3)
