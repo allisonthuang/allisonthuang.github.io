@@ -1,10 +1,10 @@
-{% include navbar.html %}
+{% include navigation.html %}
 
 # Data Structures Project
 
 ### Repl Links
 
-{% include repl_embed.html %}
+{% include replit_embed.html %}
 
 [TT0 - Python Menu](https://replit.com/@allisonthuang/allisonthuang-AllisonCSPTri3#.replit)
 
