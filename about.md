@@ -21,3 +21,5 @@ TPT 1.1: Crowdsourcing CompSci has 150 principles students. Describe a crowdsour
 - A crowdsource idea could be to randomly sample a few people from CS classes, and also make that a bigger part of our process. We could take feedback on a google form. 
 - What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
 - Del Norte crowdsourcing would be best for a random sample. The final project would be much better with crowdsourcing as a variety of different things are taken into account.
+
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@allisonthuang/allisonthuang-AllisonCSPTri3?embed=true#python/main.py"></iframe>
