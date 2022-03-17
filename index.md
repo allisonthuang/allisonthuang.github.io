@@ -2,11 +2,7 @@
 
 # AP CSP Period 3: Allison's Python Work 🐍
 
-<table>
-    <tr>
-        <td><a href="datastructuresproject">DS Project</a></td>
-    </tr>
-</table>
+<a href="datastructuresproject">DS Project</a>
 
 ## Repo Links 👩‍💻
 [Individual Repo](https://github.com/allisonthuang/allisonthuang.github.io),
