@@ -12,14 +12,22 @@ TPT 0.2: Digital Empowerment
 - Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?: Probably not blocking that much. I think it makes sense that some things are blocked or distracting, but some things are limiting. I'm not exactly sure what technology empowers- but maybe topic that facilitates greater connection.
 
 ### Week 1 (5.3-5.4)
-TPT 1.0: Computer Bias Come up with some thoughts on the video and be ready to discuss them as I call on you. Here are some ideas... Does the owner of the computer think this was intentional?
-- I feel like the owner of the computer doesn't think its intentional. I would hope they didn't try to discriminate against one group of people based on skin color. How do you think this happened?
-Likely the people in the workspace were not diverse. Is this harmful? Was it intended to be harmful or exclude? Should it be corrected?
+**TPT 1.0: Computer Bias**
+Come up with some thoughts on the video and be ready to discuss them as I call on you. Here are some ideas...
+Does the owner of the computer think this was intentional?
+- I feel like the owner of the computer doesn't think its intentional. I would hope they didn't try to discriminate against one group of people based on skin color.
+How do you think this happened?
+- Likely the people in the workspace were not diverse.
+Is this harmful? Was it intended to be harmful or exclude?
+Should it be corrected?
+- Yes, it should be.
 What would you or should you do to produce a better outcome?
+- I can make a better effort to hire people with more diverse perspectives.
 
-TPT 1.1: Crowdsourcing CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
-- A crowdsource idea could be to randomly sample a few people from CS classes, and also make that a bigger part of our process. We could take feedback on a google form. 
-- What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+**TPT 1.1: Crowdsourcing**
+CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+- A crowdsource idea could be to randomly sample a few people from CS classes, and also make that a bigger part of our process. We could take feedback on a google form.
+What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
 - Del Norte crowdsourcing would be best for a random sample. The final project would be much better with crowdsourcing as a variety of different things are taken into account.
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@allisonthuang/allisonthuang-AllisonCSPTri3?embed=true#python/main.py"></iframe>
