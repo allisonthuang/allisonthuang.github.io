@@ -30,4 +30,11 @@ CompSci has 150 principles students. Describe a crowdsource idea and how you mig
 What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
 - Del Norte crowdsourcing would be best for a random sample. The final project would be much better with crowdsourcing as a variety of different things are taken into account.
 
+**TPT 5.5: Legal and Ethical Concerns**
+- Every software has some sort of license. 
+- Patent: essentially protecting an idea you make. Patent lawyers protect to make sure the patent is maintained and the patent is protected. 
+1. When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+- There are Apache License 2.0, GNU General Public License v3.0 - free for everybody else, completely free. MIT license - use code freely and distribute closed source versions. Closed source means its protected. GPL, open source, creative commons are all esentially "free" but could impact your ability to collect revenue.
+2. Make a license for your personal and Team project. Document license you picked and why.
+
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@allisonthuang/allisonthuang-AllisonCSPTri3?embed=true#python/main.py"></iframe>
