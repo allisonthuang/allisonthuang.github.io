@@ -37,4 +37,20 @@ What about Del Norte crowdsourcing? Could your final project be better with crow
 - There are Apache License 2.0, GNU General Public License v3.0 - free for everybody else, completely free. MIT license - use code freely and distribute closed source versions. Closed source means its protected. GPL, open source, creative commons are all esentially "free" but could impact your ability to collect revenue.
 2. Make a license for your personal and Team project. Document license you picked and why.
 
+**TPT 5.6: Safe Computing**
+- Every software has some sort of license.
+- Factors to increase security of system- most systems use two factor authentication and cryptography and encryption
+1. Describe PII you have seen on project in CompSci Principles.
+- Our names and where we were born
+2. What are your feelings about PII and your exposure?
+- It scares me how much information is easily accessible.
+3. Describe good and bad passwords? What is another step that is used to assist in authentication.
+- Bad passwords are comon words and letterforms, good passwords include multiple characters.
+4. Try to describe Symmetric and Asymmetric encryption.
+- Symmetric encryption is where only a secret key is used. Asymmetric is only when it uses a pair of related keys- one public and private key
+5. Provide and example of encryption we used in deployment.
+- Raspberry Pi has in IP address
+6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
+- My dad has an email and he once clicked on a phishing email. I got mad at him. Also it could be clicking on links that look authentic.
+
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@allisonthuang/allisonthuang-AllisonCSPTri3?embed=true#python/main.py"></iframe>
