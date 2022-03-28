@@ -9,4 +9,4 @@
 [Team Repo](https://github.com/christinlee367/n225_FireEradicatorsTheSequel)
 
 ## Review Tickets 😍
-[Ticket Week 0](https://github.com/christinlee367/womenInSTEMandDavid/issues/3), [Ticket Week 1](https://github.com/christinlee367/womenInSTEMandDavid/issues/14), [Ticket Week 3](https://github.com/christinlee367/womenInSTEMandDavid/issues/18)
+[Ticket Week 0](https://github.com/christinlee367/womenInSTEMandDavid/issues/3), [Ticket Week 1](https://github.com/christinlee367/womenInSTEMandDavid/issues/14), [Ticket Week 2](https://github.com/christinlee367/womenInSTEMandDavid/issues/18)
