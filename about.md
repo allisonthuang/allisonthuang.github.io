@@ -52,5 +52,3 @@ What about Del Norte crowdsourcing? Could your final project be better with crow
 - Raspberry Pi has in IP address
 6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
 - My dad has an email and he once clicked on a phishing email. I got mad at him. Also it could be clicking on links that look authentic.
-
-Why is this not committing and updating?
