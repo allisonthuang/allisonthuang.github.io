@@ -14,6 +14,7 @@ from week2 import factorial, factors, palindrome
 from week2.gcd import print_gcd
 from week2.digitsum import print_digitsum
 from week2.pyramid import print_pyramid
+from week2.grid import print_grid
 
 main_menu = []
 
@@ -42,6 +43,7 @@ math_sub_menu = [
     ["GCD", print_gcd],
     ["Digit sum", print_digitsum],
     ["Print Pyramid", print_pyramid],
+    ["Print Grid", print_grid],
 ]
 
 # Menu banner is typically defined by menu owner
