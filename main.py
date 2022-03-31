@@ -12,6 +12,7 @@ from week0 import tt0_1
 from week1 import loops, fibonacci
 from week2 import factorial, factors, palindrome
 from week2.gcd import print_gcd
+from week2.digitsum import print_digitsum
 
 main_menu = []
 
@@ -38,6 +39,7 @@ math_sub_menu = [
     ["Factors", factors.tester],
     ["Palindrome", palindrome.tester],
     ["GCD", print_gcd],
+    ["Digit sum", print_digitsum]
 ]
 
 # Menu banner is typically defined by menu owner
