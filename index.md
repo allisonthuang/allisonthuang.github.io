@@ -27,4 +27,4 @@
 - GitHub page that documents Data Structures project, using code snippets for key learnings, and [links to GitHub](https://github.com/allisonthuang/allisonthuang.github.io) for code and [Replit for runtime](https://allisonthuang.github.io/)
 - GitHub page that documents intended Create Task project for [College Board, snippets, and links to Runtime](https://github.com/allisonthuang/allisonthuang.github.io/wiki/Allison's-Create-Task-Plan)
 
-<iframe height="1000px" width="600px" src="https://replit.com/@allisonthuang/AllisonCSPTri3?lite=true#main.py"></iframe>
+<iframe height="1000px" width="600px" src="https://replit.com/@allisonthuang/allisonthuanggithubio-1?lite=true#main.py"></iframe>
