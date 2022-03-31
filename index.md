@@ -10,15 +10,21 @@
 ## Timebox 😍
 ### [Review Ticket Week 3](https://github.com/christinlee367/womenInSTEMandDavid/issues/20)
 
+
+
 ### [Review Ticket Week 2](https://github.com/christinlee367/womenInSTEMandDavid/issues/18)<br>
 - [Organize files, directories and menus for the first 3 weeks.](https://replit.com/@allisonthuang/AllisonCSPTri3)
 - [Write Factorial function using classes, providing implementation of call.](https://replit.com/@allisonthuang/AllisonCSPTri3)
 - [Select your own Math function. Write it in Imperative and OOP form.](https://replit.com/@allisonthuang/AllisonCSPTri3)
 - [Extra Credit. Write Palindrome function using classes, must provide implementation of call. Must indicate where error occurs on front and back comparison.](https://replit.com/@allisonthuang/AllisonCSPTri3)
 
+
+
 ### [Review Ticket Week 1](https://github.com/christinlee367/womenInSTEMandDavid/issues/14)<br>
 - [InfoDB list with loops](https://replit.com/@allisonthuang/AllisonCSPTri3)
 - [TT notes work](https://allisonthuang.github.io/about)
+
+
 
 ### [Review Ticket Week 0](https://github.com/christinlee367/womenInSTEMandDavid/issues/3)<br>
 - Web Project: [Project Description, Project Plans/Ideas/Wires, Time box](https://github.com/christinlee367/womenInSTEMandDavid#readme)
@@ -27,4 +33,9 @@
 - GitHub page that documents Data Structures project, using code snippets for key learnings, and [links to GitHub](https://github.com/allisonthuang/allisonthuang.github.io) for code and [Replit for runtime](https://allisonthuang.github.io/)
 - GitHub page that documents intended Create Task project for [College Board, snippets, and links to Runtime](https://github.com/allisonthuang/allisonthuang.github.io/wiki/Allison's-Create-Task-Plan)
 
+
+<hr style="  border-top: 8px solid black;
+  border-radius: 5px;">
+  
+## Replit Runtime
 <iframe height="1000px" width="600px" src="https://replit.com/@allisonthuang/allisonthuanggithubio-1?lite=true#main.py"></iframe>
