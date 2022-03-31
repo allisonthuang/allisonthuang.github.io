@@ -4,7 +4,7 @@
 
 ## Repo Links 👩‍💻
 - [Individual Repo](https://github.com/allisonthuang/allisonthuang.github.io)<br>
-- [Replit Link](https://replit.com/@allisonthuang/AllisonCSPTri3)
+- [Replit Link](https://replit.com/@allisonthuang/allisonthuanggithubio-1)
 - [Team Repo](https://github.com/christinlee367/n225_FireEradicatorsTheSequel)<br>
 
 ## Timebox 😍
