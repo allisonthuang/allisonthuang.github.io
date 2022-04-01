@@ -6,6 +6,8 @@
 
 <iframe height="1000px" width="600px" src="https://replit.com/@allisonthuang/allisonthuanggithubio-1?lite=true#main.py"></iframe>
 
+<iframe width="560px" height="315px" src="https://www.youtube.com/embed/ZQHTxwIoeMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Week 3 Snippets
 #### Face fun
 ``` python
