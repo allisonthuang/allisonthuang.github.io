@@ -1,7 +1,12 @@
 {% include navigation.html %}
 
-## Create Task
+## Create Task from Tri 2
+### [Plan and Writeup](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/wiki/Allison's-Create-Task-Plan)
+#### [Runtime Video](https://youtu.be/8-k_yPk_hU0), [Final Committed Program Code](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/blob/main/templates/earthquakegraph.html) & [Written Response to Create Task](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/wiki/Allison's-Create-Task-Plan#written-response-to-create-task)
+- Program short description/Data Collection Type: A user inputs the number of the magnitude of earthquake that you felt, then it pulls up from a database and generates the other locations that people who have inputted have felt that earthquake.
+- Procedure that contributes to the purpose (w/output on graph): Then, you can click a button that says add into graph, and then add your data into a dotplot so you can see the distribution of earthquake magnitudes of people around you. The procedure that I'll include is probably how the data from the database is sorted and combined to fit into a graph.
 
-|Plan|Code Snippets|Runtime|
-| - | - | - |
-|My plan for the create task is to make a thing for clubs on campus to find volunteer activities and generate them. It will generate a list from user inputted values and use that information to calculate the numbers of categories of clubs.|Currently none ATM|None yet|
+### Code Snippets
+
+
+### Runtime
