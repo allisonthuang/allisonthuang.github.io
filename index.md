@@ -7,11 +7,10 @@
 - [Replit Link](https://replit.com/@allisonthuang/allisonthuanggithubio-1)
 - [Team Repo](https://github.com/christinlee367/n225_FireEradicatorsTheSequel)<br>
 
-<hr style="  border-top: 8px solid black;
-  border-radius: 5px;">
 
 ## Timebox 😍
 ### [Review Ticket Week 3](https://github.com/christinlee367/womenInSTEMandDavid/issues/20)
+
 
 ### [Review Ticket Week 2](https://github.com/christinlee367/womenInSTEMandDavid/issues/18)<br>
 - [Organize files, directories and menus for the first 3 weeks.](https://replit.com/@allisonthuang/AllisonCSPTri3)
