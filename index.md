@@ -9,6 +9,18 @@
 
 
 ## Timebox 😍
+### Review Ticket Week 4
+Create Task
+- [x] [CB Create Task Coding requirements documented](https://allisonthuang.github.io/createtask)
+- [x] [Runtime of Code(with comments) on Replit/Intellij](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/blob/main/templates/earthquakegraph.html)
+
+Accounts and Logins Challenges/Hacks
+- [x] [Start or add to existing project:  __init__.py, main.py, requirements.txt and cruddy blueprint directory are things you will need to add to your existing project. ](https://github.com/christinlee367/womenInSTEMandDavid/commit/5f6cc3749d273a428a0d61c48d337308ffa3cdfc)
+- [x] [Hack 1 Add Phone Number to Sign Up / Authorization screen](https://github.com/christinlee367/womenInSTEMandDavid/commit/724fc5f71cfd1e61e207d9fadfe00a21779121cc)
+- [x] [Hack 2 Add logout to CRUD screen](https://github.com/christinlee367/womenInSTEMandDavid/commit/559250fbfdabdfa32aaf7372c7ee1c5f0588aaa5)
+- [x] [Hack 3 Add login_required to another portion of the project](https://github.com/christinlee367/womenInSTEMandDavid/commit/9e0ea800d9b0215393dd8a0d640b83629464e0a6)
+
+
 ### [Review Ticket Week 3](https://github.com/christinlee367/womenInSTEMandDavid/issues/20)
 
 
