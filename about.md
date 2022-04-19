@@ -1,6 +1,18 @@
 {% include navigation.html %}
+# AP EXAM PREP (MC & CREATE TASK)
+### Multiple Choice
+- [x] **TUES:** Finals-Quiz1 42/50 and corrections
+- **WEDS:** Take test then brush up on the ones that you missed, do corrections for these. Then choose a topic to do a deep focus/review on based on what you missed most on Tues (Weds)
+- [ ] **THURS:** Finals-Quiz2 score/50 and reflections
+- **FRI:** Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds (Fri)
 
-## TPT Notes 😎
+### Create Task (Every day after school)
+- [ ] Create Task code/runtime and 1 min video are reviewed by another person, you may request Teacher review as time permits
+- A counter for number of times it has inputted
+- For each value of the magnitude someone adds, it adds the magnitude to the list (and possibly recomputes the average every time & it will tell you if the magnitude you did (maybe call it “evaluate/eval”) is greater than the one you felt)
+- Ask Mr. Mortensen: Do I have to remake the graph function? Maybe I’ll just change a few variables… don’t want to be counted as plagiarism (changing some variables, making new comments, changing square function to a diamond or a circle)
+
+# TPT Notes 😎
 ### Week 0 (5.1-5.2)
 **TPT 0.1: Benefit of drones, photography and military use but you can provide surveillance to people. Downside would be an invasion of privacy.**
 - Come up with three of your own Beneficial and corresponding Harmful Effects of Computing: Beneficial things are greater accessibility, simulating unlikely situations, and uniting people from far distances. Harmful effects of computing are lost lives in more imoprtant technologies like transportation technologies, bad algorithms to solve important problems and bringing bias into important decisions
