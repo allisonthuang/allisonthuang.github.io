@@ -24,8 +24,6 @@
 - How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.: I could empower someone to resources that they can access and let them borrow my materials.
 - Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?: Probably not blocking that much. I think it makes sense that some things are blocked or distracting, but some things are limiting. I'm not exactly sure what technology empowers- but maybe topic that facilitates greater connection.
 
-<hr style="  border-top: 8px solid blue;
-  border-radius: 5px;">
   
 ### Week 1 (5.3-5.4)
 **TPT 1.0: Computer Bias**
@@ -46,8 +44,6 @@ CompSci has 150 principles students. Describe a crowdsource idea and how you mig
 What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
 - Del Norte crowdsourcing would be best for a random sample. The final project would be much better with crowdsourcing as a variety of different things are taken into account.
 
-<hr style="  border-top: 8px solid blue;
-  border-radius: 5px;">
   
 ### Week 2 (5.5-5.6)
 **TPT 5.5: Legal and Ethical Concerns**
