@@ -1,9 +1,9 @@
 {% include navigation.html %}
 # AP EXAM PREP (MC & CREATE TASK)
 ### Multiple Choice
-- [x] **TUES:** Finals-Quiz1 42/50 and corrections
+- **TUES:** Finals-Quiz1 42/50 and [corrections](https://github.com/allisonthuang/allisonthuang.github.io/wiki/Finals-Quiz1-Corrections)
 - **WEDS:** Take test then brush up on the ones that you missed, do corrections for these. Then choose a topic to do a deep focus/review on based on what you missed most on Tues (Weds)
-- [ ] **THURS:** Finals-Quiz2 score/50 and reflections
+- **THURS:** Finals-Quiz2 score/50 and reflections
 - **FRI:** Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds (Fri)
 
 ### Create Task (Every day after school)
