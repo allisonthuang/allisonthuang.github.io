@@ -38,23 +38,23 @@
 <!-- Buttons that onclick call output returns of the functions to print-->
 <body><br>
 <button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="earthquakes(document.getElementById('xcord').value, document.getElementById('ycord').value, document.getElementById('lvar').value)">Draw Graph</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="magnitude(document.getElementById('lvar').value)">What's going on?</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="magnitude(document.getElementById('lvar').value)">Generate Advice</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="compare(document.getElementById('lvar').value)">Submit your magnitude</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="avg(document.getElementById('lvar').value)">Average</button>
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="avg()">Average</button>
 </body>
 
 <!-- Printing the output of the procedures (earthquakes, magnitude, average) -->
-<div class="row">
-    <div class="column"><pre id="arrPrint"> </pre></div>
-    <div class="column"><pre id="badPrint"> </pre></div>
-    <div class="column"><pre id="avgPrint"> </pre></div>
+<div>
+    <pre><span id="arrPrint"></span></pre>
+    <pre><span id="badPrint"></span></pre>
+    <pre><span id="avgPrint"></span></pre>
 </div>
 
 <!-- Script for majority of the program -->
 <script>
-    // Set arrays equal to messages
-    const good = [ "That's not the worst", "OK you'll be fine", "Stay safe!" ];
-    const bad = [ "Evacuate your family immediately.", "GET OUT. NOW!", "Find shelter immediately!" ];
+    // Set arrays equal to advice messages
+    const good = [ "Stay calm and stay put", "OK you'll be fine. Find your family", "Meet your family outside", "Go talk to a neighbor if the damage has cleared.", ];
+    const bad = [ "Evacuate your family immediately.", "Find the nearest table and hide under it.",  "GET OUT. NOW!", "Find shelter immediately!",  ];
     // Procedure "magnitude" generates a random message based upon user input for earthquake magnitude
     function magnitude(mag){
         // If the user inputs a magnitude of 1-3, that is considered a low level earthquake
@@ -62,14 +62,14 @@
             // Randomly select an index from the "good" array and print that value
             const magni = Math.floor(Math.random() * good.length);
             console.log(magni, good[magni]);
-            document.getElementById("arrPrint").innerHTML = good[magni];
+            document.getElementById("arrPrint").innerHTML = "Low magnitude advice: " +  good[magni];
         }
         // If the user inputs a magnitude higher than 1-3, that is considered a high level earthquake
         else{
             // Randomly select an index from the "bad" array and print that value
             const magni = Math.floor(Math.random() * bad.length);
             console.log(magni, bad[magni]);
-            document.getElementById("badPrint").innerHTML = bad[magni];
+            document.getElementById("badPrint").innerHTML = "High magnitude advice: " + bad[magni];
         }
     }
 
@@ -83,17 +83,18 @@
     }
 
     // Calculate the average of all the user inputted magnitudes
-    function avg(magnitudes) {
+    function avg() {
         // Initialize value of sum
         let sum = 0;
-        // Convert each element of the array to an interger, iterating through & adding each integer to the value "sum"
+        // Convert each element of the array to an integer, iterating through & adding each integer to the value "sum"
         Array.from(magnitudes).forEach(function(number) {
             sum += parseInt(number, 10);
         });
-        console.log(sum/magnitudes.length);
+        console.log("The average of all inputted magnitudes is:" + sum/magnitudes.length);
         // Set average as the above calculated sum to the length of the array
-        let average = sum/magnitudes.length;
-        document.getElementById("avgPrint").value = average;
+        const allmag = sum/magnitudes.length;
+
+        document.getElementById("avgPrint").innerHTML = "The average of all inputted magnitudes is: " + allmag;
     }
 
 </script>
@@ -112,7 +113,7 @@
 
 
     <script>
-        // OTHER CODE CONTRIBUTORS: The canvas page and grid settings was created from instructions on https://www.w3schools.com/graphics/canvas_intro.asp
+        // OTHER CODE CONTRIBUTORS: The canvas, grid and axis settings was created from instructions on https://www.w3schools.com/graphics/canvas_intro.asp
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         const WIDTH = canvas.width;
@@ -177,3 +178,4 @@
     </script>
 
 {% endblock %}
+
