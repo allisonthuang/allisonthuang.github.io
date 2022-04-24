@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<!-- For background color and set styles for HTML body on this page -->
+<body align="center" style="background-color:#CAD5E8; font-family: 'helvetica'">
+
+<!-- Style for the page title header and instructions -->
+<div style="background-color: #4b6ab9; color: #FFFFFF">
+    <!-- Titles and input instructions -->
+    <h2><br>Draw a Graph (Earthquake Plot Simulation)</h2>
+    <h4>Did you ever feel an earthquake in your area? Have your family and Friends?<br>Enter your data below of the earthquake you felt.<br>&nbsp<br></h4>
+</div>
+
+<!-- Table and placeholders for user input about earthquake parameters (X-coordinate, Y-Coordinate, Magnitudes) -->
+<div>
+    <table align="center" class="table">
+        <thead>
+        <tr>
+            <th align="left"><label for="xvar" >X-Coordinate</label></th>
+            <th align="left" ><label for="yvar">Y-Coordinate</label></th>
+            <th align="left" ><label for="lvar">Magnitude of earthquake</label></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <input placeholder="Ex: 9, -3, 0" name="xcord" id="xcord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input placeholder="Ex: 9, -3, 0" name="ycord" id="ycord">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input placeholder="Ex: 1, 4, 6" type="text" name="lvar" id="lvar"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Buttons that onclick call output returns of the functions to print-->
+<body><br>
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="earthquakes(document.getElementById('xcord').value, document.getElementById('ycord').value, document.getElementById('lvar').value)">Draw Graph</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="magnitude(document.getElementById('lvar').value)">What's going on?</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="compare(document.getElementById('lvar').value)">Submit your magnitude</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="avg(document.getElementById('lvar').value)">Average</button>
+</body>
+
+<!-- Printing the output of the procedures (earthquakes, magnitude, average) -->
+<div class="row">
+    <div class="column"><pre id="arrPrint"> </pre></div>
+    <div class="column"><pre id="badPrint"> </pre></div>
+    <div class="column"><pre id="avgPrint"> </pre></div>
+</div>
+
+<!-- Script for majority of the program -->
+<script>
+    // Set arrays equal to messages
+    const good = [ "That's not the worst", "OK you'll be fine", "Stay safe!" ];
+    const bad = [ "Evacuate your family immediately.", "GET OUT. NOW!", "Find shelter immediately!" ];
+    // Procedure "magnitude" generates a random message based upon user input for earthquake magnitude
+    function magnitude(mag){
+        // If the user inputs a magnitude of 1-3, that is considered a low level earthquake
+        if ((parseInt(mag) == 1) || (parseInt(mag) == 2) || (parseInt(mag) == 3)) {
+            // Randomly select an index from the "good" array and print that value
+            const magni = Math.floor(Math.random() * good.length);
+            console.log(magni, good[magni]);
+            document.getElementById("arrPrint").innerHTML = good[magni];
+        }
+        // If the user inputs a magnitude higher than 1-3, that is considered a high level earthquake
+        else{
+            // Randomly select an index from the "bad" array and print that value
+            const magni = Math.floor(Math.random() * bad.length);
+            console.log(magni, bad[magni]);
+            document.getElementById("badPrint").innerHTML = bad[magni];
+        }
+    }
+
+    // List that collects and stores all user inputted magnitudes into the empty array "magnitudes"
+    let magnitudes = []
+    function compare(){
+        // Append or "push" the magnitude values into the empty array "magnitudes"
+        magnitudes.push(document.getElementById("lvar").value);
+        console.log(magnitudes);
+        // document.getElementById("magnitudesPrint").value = magnitudes;
+    }
+
+    // Calculate the average of all the user inputted magnitudes
+    function avg(magnitudes) {
+        // Initialize value of sum
+        let sum = 0;
+        // Convert each element of the array to an interger, iterating through & adding each integer to the value "sum"
+        Array.from(magnitudes).forEach(function(number) {
+            sum += parseInt(number, 10);
+        });
+        console.log(sum/magnitudes.length);
+        // Set average as the above calculated sum to the length of the array
+        let average = sum/magnitudes.length;
+        document.getElementById("avgPrint").value = average;
+    }
+
+</script>
+
+<!-- Begin Earthquake Graph -->
+{% block content %}
+    <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom border-primary text-dark">
+            <h3 class="fs-4" align="center" >Earthquake Graph</h3>
+            <p id="allison"></p>
+        </header>
+        <div class="container py-4 bg-primary" style="text-align:center;">
+            <canvas id="canvas" width="768" height="576" ></canvas>
+        </div>
+    </div>
+
+
+    <script>
+        // OTHER CODE CONTRIBUTORS: The canvas page and grid settings was created from instructions on https://www.w3schools.com/graphics/canvas_intro.asp
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const WIDTH = canvas.width;
+        const HEIGHT = canvas.height;
+        const CELL_SIZE = 16;
+
+        // Function creates the grid and uses the elements above based on height and width
+        function grid(){
+            // How thick the actual grids are & color
+            ctx.lineWidth = 1;
+            ctx.strokeStyle = 'white';
+            // The graph's actual horizontal and vertical gridlines
+            for (let col = 0; col < WIDTH; col += CELL_SIZE) {
+                for (let row = 0; row < HEIGHT; row += CELL_SIZE) {
+                    ctx.strokeRect(col, row, CELL_SIZE, CELL_SIZE);
+                }
+            }
+        }
+
+        // Lines of the x and y axis
+        function axis() {
+            // How thick the actual grids are & color
+            ctx.strokeStyle = 'blue';
+            ctx.lineWIDTH = 3;
+            // Where the midpoints of the x and y axis are
+            const a = WIDTH*.5;
+            const b = HEIGHT*.5;
+            // The x-axis
+            ctx.moveTo(0, b);
+            ctx.lineTo(WIDTH, b);
+            ctx.stroke();
+            // The y-axis
+            ctx.moveTo(a, 0);
+            ctx.lineTo(a, HEIGHT);
+            ctx.stroke();
+        }
+
+        // OTHER CODE CONTRIBUTORS: Procedure to draw square from class computer science project
+        // Square or Earthquakes function that creates the square based on the x-coordinates (a), y-coordinates (b), and magnitude (len) inputted by the user, generating a square on the axis that simulates the earthquake
+        function earthquakes(a,b,len) {
+            // Color and thickness
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 3;
+            // Set values of x, y, l for drawing the square
+            let x = a*CELL_SIZE + (WIDTH/2);
+            let y = -b*CELL_SIZE + (HEIGHT/2);
+            let l = len*CELL_SIZE;
+            // Movement of the drawing of the actual square
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(x+l, y);
+            ctx.lineTo(x+l, y-l);
+            ctx.lineTo(x, y-l);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+        }
+
+        // Call that draws grid and axis
+        grid();
+        axis();
+
+    </script>
+
+{% endblock %}
