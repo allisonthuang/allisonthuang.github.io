@@ -40,14 +40,14 @@
 <button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="earthquakes(document.getElementById('xcord').value, document.getElementById('ycord').value, document.getElementById('lvar').value)">Draw Graph</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="magnitude(document.getElementById('lvar').value)">Generate Advice</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="compare(document.getElementById('lvar').value)">Submit your magnitude</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="avg()">Average</button>
+<button style="padding: 8px 22px; text-align: center; color: #FFFFFF; background-color: #4b6ab9" onclick="magaverage()">Average</button>
 </body>
 
-<!-- Printing the output of the procedures (earthquakes, magnitude, average) -->
+<!-- Printing the output of the procedures (earthquakes, magnitude, magaverage) -->
 <div>
     <pre><span id="arrPrint"></span></pre>
     <pre><span id="badPrint"></span></pre>
-    <pre><span id="avgPrint"></span></pre>
+    <pre><span id="magaveragePrint"></span></pre>
 </div>
 
 <!-- Script for majority of the program -->
@@ -83,7 +83,7 @@
     }
 
     // Calculate the average of all the user inputted magnitudes
-    function avg() {
+    function magaverage() {
         // Initialize value of sum
         let earthquakesum = 0;
         // Convert each element of the array to an integer, iterating through & adding each integer to the value "sum"
@@ -94,7 +94,7 @@
         // Set average as the above calculated sum to the length of the array
         const allmag = earthquakesum/magnitudes.length;
 
-        document.getElementById("avgPrint").innerHTML = "The average of all inputted magnitudes is: " + allmag;
+        document.getElementById("magaveragePrint").innerHTML = "The average of all inputted magnitudes is: " + allmag;
     }
 
 </script>
