@@ -85,14 +85,14 @@
     // Calculate the average of all the user inputted magnitudes
     function avg() {
         // Initialize value of sum
-        let sum = 0;
+        let earthquakesum = 0;
         // Convert each element of the array to an integer, iterating through & adding each integer to the value "sum"
-        Array.from(magnitudes).forEach(function(number) {
-            sum += parseInt(number, 10);
-        });
-        console.log("The average of all inputted magnitudes is:" + sum/magnitudes.length);
+        Array.from(magnitudes).forEach(function(number){
+            earthquakesum += parseInt(number, 10);
+        )};
+        console.log("The average of all inputted magnitudes is:" + earthquakesum/magnitudes.length);
         // Set average as the above calculated sum to the length of the array
-        const allmag = sum/magnitudes.length;
+        const allmag = earthquakesum/magnitudes.length;
 
         document.getElementById("avgPrint").innerHTML = "The average of all inputted magnitudes is: " + allmag;
     }
@@ -151,7 +151,7 @@
             ctx.stroke();
         }
 
-        // OTHER CODE CONTRIBUTORS: Procedure to draw square from class computer science project
+        // OTHER CODE CONTRIBUTORS: Procedure to draw square from teacher graph frontend project
         // Square or Earthquakes function that creates the square based on the x-coordinates (a), y-coordinates (b), and magnitude (len) inputted by the user, generating a square on the axis that simulates the earthquake
         function earthquakes(a,b,len) {
             // Color and thickness
@@ -178,4 +178,3 @@
     </script>
 
 {% endblock %}
-
