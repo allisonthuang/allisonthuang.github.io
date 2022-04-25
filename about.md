@@ -7,7 +7,7 @@
 - **FRI:** Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds (Fri)
 
 ### Create Task (Every day after school)
-- [x] Create Task [code](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/earthquakegraph.html)/runtime and [1 min video](https://drive.google.com/file/d/17YDttxZEh3itEvA15FTNoinsc3nxf7FD/view?usp=sharing) are reviewed by another person, you may request Teacher review as time permits. [Written Task Link](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/createtaskwriteup.md)
+- [x] Create Task [code](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/earthquakegraph.html)/runtime and [1 min video](https://drive.google.com/file/d/17YDttxZEh3itEvA15FTNoinsc3nxf7FD/view?usp=sharing) are reviewed by another person, you may request Teacher review as time permits. [Written Task Linkk](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/createtaskwriteup.md)
 
 # TPT Notes 😎
 ### Week 0 (5.1-5.2)
