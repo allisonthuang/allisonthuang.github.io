@@ -1,15 +1,10 @@
 **[Link to create task](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf?course=ap-computer-science-principles)**
 
-## Allison's Create Task Plan
-Program short description/Data Collection Type: A user inputs the number of the magnitude of earthquake that you felt, then it pulls up from a database and generates the other locations that people who have inputted have felt that earthquake. 
-
-Procedure that contributes to the purpose (w/output on graph): Then, you can click a button that says add into graph, and then add your data into a dotplot so you can see the distribution of earthquake magnitudes of people around you. The procedure that I'll include is probably how the data from the database is sorted and combined to fit into a graph. 
-
 ## Create Task Content
 
-### [Runtime Video Link](https://youtu.be/8-k_yPk_hU0)
+### [Runtime Video Link](https://drive.google.com/file/d/17YDttxZEh3itEvA15FTNoinsc3nxf7FD/view?usp=sharing)
 
-### [Final Committed Program Code](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/earthquakegraph.html)
+### [Program Code](https://github.com/allisonthuang/allisonthuang.github.io/blob/main/earthquakegraph.html)
 
 ### Written Response to Create Task
 3a i. The overall purpose of the program is for users to obtain more information about the earthquake they felt at their location. People can obtain more information about earthquakes from this program. It can help create/simulate a graph of what they felt at (x,y) coordinate points with magnitude (l), help users receive advice based upon inputted values, add their data to a list, and take the average of all the data.
